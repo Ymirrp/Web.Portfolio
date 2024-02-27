@@ -1,0 +1,32 @@
+﻿@using System.Globalization
+@using SharedResources
+@inject NavigationManager Navigation
+@inject IStringLocalizer<SharedResources> L
+
+<NavLink class="nav-link header-link cursor-pointer" href="@SetCulture(L[Culture.TwoLetterISOLanguageName])">
+    <span class="oi oi-globe me-1"></span> @L[Culture.TwoLetterISOLanguageName]
+</NavLink>
+
+@code {
+    CultureInfo Culture = CultureInfo.CurrentCulture;
+
+    private CultureInfo[] supportedCultures = new[]
+    {
+        new CultureInfo("is"),
+        new CultureInfo("en"),
+    };
+
+    public string SetCulture(string value) {
+        if (CultureInfo.CurrentCulture.TwoLetterISOLanguageName != value.ToLower())
+        {
+            var newCult = supportedCultures.FirstOrDefault(c => c.TwoLetterISOLanguageName == value.ToLower()) ?? supportedCultures[0];
+            var uri = new Uri(Navigation.Uri)
+                .GetComponents(UriComponents.PathAndQuery, UriFormat.Unescaped);
+            var cultureEscaped = Uri.EscapeDataString(newCult.Name);
+            var uriEscaped = Uri.EscapeDataString(uri);
+
+            return $"Culture/Set?culture={cultureEscaped}&redirectUri={uriEscaped}";
+        }
+        return "#";
+    }
+}

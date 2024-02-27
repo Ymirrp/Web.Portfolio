@@ -1,0 +1,16 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/site.min.css",
+    "inputFile": "Assets/site.main.less",
+    "minify": {
+      "enabled": true
+    }
+  },
+  {
+    "outputFile": "wwwroot/css/header.min.css",
+    "inputFile": "Assets/site.header.less",
+    "minify": {
+      "enabled": true
+    }
+  }
+]

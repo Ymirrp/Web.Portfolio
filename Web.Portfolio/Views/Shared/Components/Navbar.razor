@@ -1,0 +1,56 @@
+﻿@using SharedResources
+@inject IStringLocalizer<SharedResources> L
+
+<nav class="navbar navbar-expand-lg web__header">
+    <div class="container-fluid justify-content-lg-center">
+        <NavLink class="navbar-brand header-brand me-5" href="">Portfolio</NavLink>
+        <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarContent" 
+                aria-controls="navbarContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon oi oi-menu text-white"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <NavLink class="nav-link header-link" href="" Match="NavLinkMatch.All">@L["Heim"]</NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink class="nav-link header-link dropdown-toggle" 
+                             id="navbarDropdown"
+                             href="#" 
+                             role="button" 
+                             data-bs-toggle="dropdown" 
+                             aria-expanded="false">
+                        @L["Verkefni"]
+                    </NavLink>
+                    <ul class="dropdown-menu rounded p-0" aria-labelledby="navbarDropdown">
+                        <li>
+                            <NavLink class="dropdown-item" href="#">Verk 1</NavLink>
+                        </li>
+                        <li>
+                            <NavLink class="dropdown-item" href="#">Verk 2</NavLink>
+                        </li>
+                        <li>
+                            <NavLink class="dropdown-item" href="#">Verk 3</NavLink>
+                        </li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li>
+                            <NavLink class="dropdown-item" href="#">@L["Leikir"]</NavLink>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <CultureSelector />
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+@code {
+
+}

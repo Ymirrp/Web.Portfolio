@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Lt/M6qtoWvcxYZxGQda/iLBGRq2AJitrxCnVJJdMNpxfDsI6frQR7THlqKoQdjVe6bUeYTQ0BoEtgSHfld1wAw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ymirr\\source\\repos\\Web.Portfolio\\Web.Portfolio\\Web.Portfolio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ymirr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512",
+    "C:\\Users\\ymirr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\ymirr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\ymirr\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

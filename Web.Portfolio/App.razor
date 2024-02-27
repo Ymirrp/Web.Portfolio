@@ -1,0 +1,15 @@
+﻿@using Web.Portfolio.Views.Shared
+
+<Router AppAssembly="@typeof(App).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+    </Found>
+    <NotFound>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <Web.Portfolio.Views.Shared.Components.Card>
+                <Web.Portfolio.Views.Shared.Components.NotFound />
+            </Web.Portfolio.Views.Shared.Components.Card>
+        </LayoutView>
+    </NotFound>
+</Router>

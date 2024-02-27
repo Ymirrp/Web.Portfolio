@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Web.Portfolio
+build_property.RootNamespace = Web.Portfolio
+build_property.ProjectDir = C:\Users\ymirr\source\repos\Web.Portfolio\Web.Portfolio\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ymirr\source\repos\Web.Portfolio\Web.Portfolio
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ymirr/source/repos/Web.Portfolio/Web.Portfolio/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ymirr/source/repos/Web.Portfolio/Web.Portfolio/Views/Counter/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRlclxDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ymirr/source/repos/Web.Portfolio/Web.Portfolio/Views/FetchData/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmV0Y2hEYXRhXEZldGNoRGF0YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ymirr/source/repos/Web.Portfolio/Web.Portfolio/Views/Home/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ymirr/source/repos/Web.Portfolio/Web.Portfolio/Views/Shared/Components/Card.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ymirr/source/repos/Web.Portfolio/Web.Portfolio/Views/Shared/Components/CultureSelector.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ3VsdHVyZVNlbGVjdG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ymirr/source/repos/Web.Portfolio/Web.Portfolio/Views/Shared/Components/Navbar.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ymirr/source/repos/Web.Portfolio/Web.Portfolio/Views/Shared/Components/NotFound.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTm90Rm91bmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ymirr/source/repos/Web.Portfolio/Web.Portfolio/Views/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ymirr/source/repos/Web.Portfolio/Web.Portfolio/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ymirr/source/repos/Web.Portfolio/Web.Portfolio/Views/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-xgt4zwyg3k
+
+[C:/Users/ymirr/source/repos/Web.Portfolio/Web.Portfolio/Views/Shared/NavMenu_obsolete.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5hdk1lbnVfb2Jzb2xldGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-e6bll77acx
+
+[C:/Users/ymirr/source/repos/Web.Portfolio/Web.Portfolio/Views/Error/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ymirr/source/repos/Web.Portfolio/Web.Portfolio/Views/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ymirr/source/repos/Web.Portfolio/Web.Portfolio/Views/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
